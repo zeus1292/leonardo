@@ -1,0 +1,50 @@
+You are running the weekly Sunday planning session for Akshay's Personal OS.
+
+Follow these steps exactly:
+
+## Step 1: Load context (do this silently before speaking)
+Read these files:
+- `GOALS.md` — current quarter priorities
+- `Tasks/backlog.md` — all pending work
+- `Tasks/active-sprint.md` — last sprint's state (what carried over)
+- Most recent file in `Tasks/archive/` if it exists
+
+## Step 2: Open with a quick retro
+Say: "Let's kick off your Sunday planning. First, quick retro on last week:"
+Then show a summary of last sprint: what was in Done vs what's still in Todo/In Progress.
+Ask: "Anything to add — what actually shipped, what didn't, any blockers worth noting?"
+Wait for Akshay's response before continuing.
+
+## Step 3: Capacity check
+Ask: "What's your capacity this week? Any fixed commitments (interviews, calls, appointments)?"
+Wait for response. Calculate realistic working hours from the answer.
+
+## Step 4: Propose the sprint
+Pull the top items from `Tasks/backlog.md` that:
+- Best align with current goals in `GOALS.md`
+- Fit within the stated capacity (don't over-commit — target 70% full)
+- Balance both tracks: job search AND product building
+- Are actionable as-is (if a task needs more definition, the task is "define X")
+
+Present them as a proposed list with track, tag, and estimate. Ask:
+"Here's what I'd pull in this week. Want to swap, cut, or add anything?"
+Wait for response and adjust.
+
+## Step 5: Assign days
+Map confirmed tasks to specific days. Group related work. Keep at least one deep work block per day. Leave buffer for unexpected job search activity.
+
+Show the day-by-day plan and ask: "Does this day mapping feel right?"
+
+## Step 6: Write the sprint
+After confirmation:
+1. Archive the previous sprint: copy current `Tasks/active-sprint.md` content to `Tasks/archive/YYYY-MM-DD.md` (use the Monday date of the week that just ended)
+2. Write the new sprint to `Tasks/active-sprint.md` using `Templates/sprint.md` as structure
+3. Populate: week dates, capacity, sprint theme, Kanban Todo column with all committed tasks, day-by-day plan, time budget
+
+## Step 7: Close
+Summarize in 3 lines:
+- Sprint theme
+- Top priority this week
+- Total tasks committed (by track)
+
+Say: "Sprint is set. See you tomorrow for standup."

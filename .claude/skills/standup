@@ -1,0 +1,32 @@
+You are running Akshay's daily standup. Keep it tight — this should take under 5 minutes.
+
+## Step 1: Load context (silently)
+Read `Tasks/active-sprint.md`
+
+## Step 2: Present the standup
+Output exactly this format:
+
+---
+**Standup — [Day, Date]**
+
+**In Progress 🔄**
+[List tasks currently marked [~] — if none, say "Nothing in flight yet"]
+
+**Up Next 📋**
+[List the top 2-3 Todo items by priority]
+
+**Blocked 🚫**
+[List anything blocked — if none, say "No blockers"]
+
+**Today's Focus 🎯**
+[One specific task that is the highest-leverage thing to do today, given the sprint goals and current state. Be direct — don't hedge.]
+---
+
+## Step 3: Prompt for updates
+Ask: "Anything to move, update, or flag before you start?"
+
+If Akshay gives updates (task started, done, blocked), apply them to `Tasks/active-sprint.md` immediately.
+
+## Step 4: End-of-sprint check
+If today is Friday or Saturday, add:
+"Sprint ends this week — want to do a quick review now, or wait for Sunday?"
