@@ -24,10 +24,15 @@ Estimates: S = ~1hr, M = ~2-3hr, L = ~half day, XL = ~full day
 
 ## 💡 Product Ideas & Validation
 
-- [ ] Brainstorm 10 passive income ideas at intersection of AI + my skills [#idea] [M]
-- [ ] Score each idea against: pain strength, willingness to pay, build complexity, distribution [#idea] [M]
-- [ ] Pick top 3 ideas and do 30-min deep dive on each [#idea] [L]
-- [ ] Talk to 3 potential users for top idea [#idea] [L]
+### 🔥 Active: Proof of Build (Score: 15/20)
+- [ ] Talk to 3 AI PMs/builders: "Would you pay $15/mo for this while job searching?" [#idea] [M]
+- [ ] Post on LinkedIn about the problem — gauge resonance (likes, comments, DMs) [#idea] [S]
+- [ ] Build a V0 of your own profile as a structured doc/Notion page — no code yet [#idea] [M]
+- [ ] Map out the project card schema: what fields prove AI competency to a HM? [#idea] [S]
+- [ ] Research: does a recruiter-side monetization model make job seeker side free? [#idea] [S]
+
+### Parked
+- [ ] Brainstorm additional passive income ideas if Proof of Build doesn't validate [#idea] [M]
 - [ ] Explore monetization models: SaaS, API, marketplace, community, info product [#idea] [S]
 - [ ] Research what's already built in InvestorLens / Retail Right space [#idea] [M]
 
