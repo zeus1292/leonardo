@@ -44,7 +44,7 @@ A decade of turning complex AI capabilities into products that matter — from e
 ### Goal 2: Validate and ship a passive income product
 - **Target:** First paying customer by end of Q2 2026
 - **Leading indicators:** 1 validated idea with clear monetization, working MVP, 10+ beta users
-- **Status:** Ideation phase — no validated idea yet
+- **Status:** 🟡 Active — building **Probe** (AI eval tool: deterministic + non-deterministic evals + thought partner). MVP sprint: Mar 17–22.
 
 ### Goal 3: Build credibility as an AI product builder
 - **Target:** Consistent output — writing, builds, GitHub activity — that tells a coherent story

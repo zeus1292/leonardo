@@ -22,19 +22,24 @@ Estimates: S = ~1hr, M = ~2-3hr, L = ~half day, XL = ~full day
 
 ---
 
-## 💡 Product Ideas & Validation
+## 🔬 Probe (Active Product Build)
 
-### 🔥 Active: Proof of Build (Score: 15/20)
-- [ ] Talk to 3 AI PMs/builders: "Would you pay $15/mo for this while job searching?" [#idea] [M]
-- [ ] Post on LinkedIn about the problem — gauge resonance (likes, comments, DMs) [#idea] [S]
-- [ ] Build a V0 of your own profile as a structured doc/Notion page — no code yet [#idea] [M]
-- [ ] Map out the project card schema: what fields prove AI competency to a HM? [#idea] [S]
-- [ ] Research: does a recruiter-side monetization model make job seeker side free? [#idea] [S]
+*Probe is now the primary product focus. It replaces Proof of Build as the passive income play
+and doubles as Proof of Build itself — building it in public with Claude agents tells the story.*
 
-### Parked
-- [ ] Brainstorm additional passive income ideas if Proof of Build doesn't validate [#idea] [M]
-- [ ] Explore monetization models: SaaS, API, marketplace, community, info product [#idea] [S]
-- [ ] Research what's already built in InvestorLens / Retail Right space [#idea] [M]
+### Post-MVP Backlog (after Day 6)
+- [ ] Set up public landing page for Probe [#probe] [M]
+- [ ] Write launch post for LinkedIn — "I built an AI eval tool in 5 days with Claude agents" [#probe] [M]
+- [ ] Publish to PyPI as probe-eval [#probe] [M]
+- [ ] Build Streamlit dashboard (web UI) — v2 [#probe] [L]
+- [ ] Add CI/CD integration (GitHub Actions workflow) — v2 [#probe] [L]
+- [ ] Multi-suite comparison and benchmarking — v2 [#probe] [L]
+- [ ] Stripe integration for paid tier — v2 [#probe] [L]
+- [ ] Talk to 3 AI builders: would you pay for hosted Probe? [#probe] [M]
+
+### Parked Ideas
+- [ ] Proof of Build portfolio platform — revisit if Probe doesn't gain traction [#idea] [M]
+- [ ] Brainstorm additional passive income ideas [#idea] [M]
 
 ---
 
