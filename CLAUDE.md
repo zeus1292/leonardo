@@ -17,7 +17,9 @@ My personal OS — a Claude-powered second brain that helps me stay on track wit
 1. **Land a great AI PM role** — targeted job search with discipline
 2. **Build passive income** — find and ship a marketable AI product
 
-I operate like a solo founder with a one-week sprint cycle. Every Sunday, I plan my week. Every day, I check in. Claude is my planning partner, accountability system, and thinking tool.
+I operate like a solo founder with a one-week sprint cycle. Every Sunday, Claude scans the latest AI/PM/fintech signals from Reddit, Twitter, and key newsletters — then uses those insights to update my backlog and generate a focused weekly sprint. Every day, I check in. Claude is my planning partner, accountability system, and thinking tool.
+
+**Capacity model:** 1 hour/day, 7 hours/week, 5 committed tasks per sprint (70% load).
 
 ## Folder Structure
 
@@ -34,16 +36,19 @@ Personal OS/
 │   ├── product-ideas/     ← Idea pipeline and validation notes
 │   └── active/            ← Active builds with specs and progress
 ├── Workflows/
-│   ├── sunday-planning.md ← Weekly sprint planning process
+│   ├── sunday-planning.md ← Weekly sprint planning process (includes scan)
+│   ├── learning-scan.md   ← Sunday intelligence scan: Reddit, Twitter, HN, newsletters
 │   ├── daily-standup.md   ← Daily check-in process
 │   └── idea-validation.md ← Framework for vetting product ideas
 ├── Knowledge/
 │   ├── ai-landscape.md    ← AI market, trends, competitor intel
 │   ├── passive-income.md  ← Monetization models and research
-│   └── job-search.md      ← Target companies, roles, interview notes
+│   ├── job-search.md      ← Target companies, roles, interview notes
+│   └── learning-log.md    ← Weekly scan digests (auto-updated Sundays)
 ├── Meetings/              ← Coffee chats, recruiter calls, informational interviews
 ├── Templates/
-│   ├── sprint.md          ← Weekly sprint template
+│   ├── sprint.md          ← Weekly sprint template (1hr/day capacity)
+│   ├── learning-digest.md ← Template for weekly scan output
 │   ├── project-brief.md   ← New project template
 │   └── idea-canvas.md     ← Product idea validation template
 └── _Registry/
@@ -54,8 +59,9 @@ Personal OS/
 
 | Say | Does |
 |-----|------|
-| `/sunday-plan` | Weekly sprint planning: review backlog, set capacity, generate timeboxed Kanban board |
-| `/standup` | Daily check-in: surface today's priorities from active sprint, flag blockers |
+| `/sunday-plan` | Full Sunday session: scan → retro → prioritize → write sprint (60 min) |
+| `/scan` | Standalone learning scan: search Reddit/Twitter/HN, write digest, update backlog |
+| `/standup` | Daily check-in: surface today's task from active sprint, flag blockers |
 | `/weekly-review` | End-of-week: what shipped, what didn't, lessons, prep next sprint |
 | `/new-idea [name]` | Open an idea canvas to capture and start validating a new product idea |
 | `/job-search` | Review job search pipeline: applications, outreach, follow-ups due |
@@ -63,18 +69,18 @@ Personal OS/
 
 ## How to Work With Me
 
-**Sprint planning (Sundays):**
-- Read `GOALS.md` to anchor on what matters most
-- Read `Tasks/backlog.md` for all pending work
-- Read `Tasks/archive/` for last sprint to understand velocity and carryover
-- Ask about capacity and fixed commitments for the week
-- Generate a realistic, timeboxed sprint in `Tasks/active-sprint.md`
-- Organize as Kanban: `[ ] Todo → [~] In Progress → [x] Done`
+**Sprint planning (Sundays) — run `/sunday-plan`:**
+1. Run the learning scan first (`Workflows/learning-scan.md`) — scan sources, write digest, update backlog
+2. Read `GOALS.md` to anchor on what matters most
+3. Read `Tasks/backlog.md` including new learning-driven items
+4. Do a 2-min retro on last week
+5. Pick 5 tasks at ~1hr each, assign one per day Mon–Fri
+6. Write sprint to `Tasks/active-sprint.md`, archive the previous one
 
-**Daily standup:**
+**Daily standup — run `/standup`:**
 - Read `Tasks/active-sprint.md`
-- Surface what's in progress, what's next, what's blocked
-- Suggest one high-leverage focus for the day
+- Surface today's assigned task and anything blocked
+- One sentence on the focus: "Today's hour: [task]"
 
 **When I share a new idea:**
 - Use the idea canvas in `Templates/idea-canvas.md`
@@ -103,7 +109,11 @@ Personal OS/
 ## Operating Principles
 
 - One week = one sprint. No rolling over half the sprint without a retro.
+- Capacity is fixed at 1 hour/day. Commit to 5 tasks. Don't negotiate with the calendar.
+- Sunday scan is not optional — it keeps the backlog alive with real-world signal.
+- Learning feeds action: every scan insight maps to a task or gets dropped.
 - Passive income ideas must have a clear monetization path before I build.
 - Job search is not passive — treat it like a product launch.
 - Bias to ship. A working prototype beats a perfect plan.
 - If I haven't touched something in 2 weeks, it goes to backlog or gets cut.
+- Learning-Driven backlog items expire after 2 sprints if not pulled in.

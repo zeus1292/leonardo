@@ -1,23 +1,48 @@
 # Workflow: Sunday Planning (/sunday-plan)
 
-Triggered every Sunday. This is the weekly sprint kickoff.
-Claude runs this as a structured session with Akshay.
+Runs every Sunday. Full session: ~60 minutes.
+Combines a weekly intelligence scan with sprint planning.
+
+---
+
+## Time Budget
+
+| Step | Time |
+|------|------|
+| Step 0: Knowledge Scan | ~30–40 min |
+| Step 1–2: Orient + Retro | ~5 min |
+| Step 3–5: Prioritize + Plan | ~10–15 min |
+| Step 6: Write Sprint | ~5 min |
+
+---
+
+## Step 0: Knowledge Scan (run `/scan` first)
+
+**Before planning anything**, Claude runs the weekly learning scan.
+
+Read `Workflows/learning-scan.md` and execute it fully:
+1. Run web searches across Tier 1 and Tier 2 sources
+2. Write a new digest entry to `Knowledge/learning-log.md` using `Templates/learning-digest.md`
+3. Add any actionable items to `Tasks/backlog.md → ## 🧠 Learning-Driven`
+
+Claude surfaces a quick summary:
+> "This week's scan is done. Here's what stood out: [top 2–3 signals]. I've added [N] tasks to the learning backlog."
 
 ---
 
 ## Step 1: Orient (Claude reads silently)
 
-Before saying anything, Claude should read:
+Read:
 - `GOALS.md` — anchor on what matters most this quarter
-- `Tasks/backlog.md` — full picture of pending work
-- `Tasks/active-sprint.md` (last week's) or most recent `Tasks/archive/` entry — what carried over, what got done
+- `Tasks/backlog.md` — full picture of pending work (including new learning-driven items)
+- `Tasks/active-sprint.md` or most recent `Tasks/archive/` entry — what carried over
 
 ---
 
 ## Step 2: Quick Retro (2 min)
 
 Claude asks:
-> "Before we plan, quick retro on last week. What shipped? What didn't? Any patterns worth noting?"
+> "Quick retro on last week — what shipped, what didn't? Any patterns?"
 
 Capture key takeaways. Note carryover items.
 
@@ -25,57 +50,62 @@ Capture key takeaways. Note carryover items.
 
 ## Step 3: Capacity Check
 
-Claude asks:
-> "What's your capacity this week? Any fixed commitments (interviews, calls, travel, appointments)?"
+Capacity is fixed: **1 hour/day × 7 days = 7 hours/week.**
+Target **5 committed hours** (~70%), leaving buffer for interruptions.
 
-Akshay responds with rough availability. Claude calculates realistic working hours.
+Claude asks:
+> "Any fixed commitments this week — interviews, calls, travel — that would cut into your hour?"
+
+Adjust accordingly (e.g., a day with an interview → that hour is the interview prep, not a build task).
 
 ---
 
 ## Step 4: Prioritization
 
-Claude surfaces the top 8-12 items from the backlog that:
-1. Align most directly with current quarter goals
-2. Are appropriately sized for available capacity
-3. Balance both tracks (job search + product building)
+Claude surfaces **5 tasks** from the backlog:
+1. Aligned with current quarter goals
+2. Sized at ~1 hour each (M = 1hr, S = 30min = stack two, L = 2hrs = split across days)
+3. Balanced across tracks: job search, product build, and at least 1 learning-driven task
 
-For each, Claude shows: task name, track, estimate, and why it's relevant now.
+For each, show: task, track, estimate, why now.
 
 Claude asks:
-> "Here's what I'd pull in this week based on your goals and capacity. Does this feel right, or do you want to swap anything?"
+> "Here are the 5 I'd pull in. Want to swap anything before I write the sprint?"
 
 ---
 
-## Step 5: Time Boxing
+## Step 5: Assign Days
 
-Claude creates a day-by-day time allocation:
-- Assigns tasks to specific days (not hours)
-- Groups related tasks together
-- Protects at least one block for deep work each day
-- Leaves buffer for unexpected job search activity (recruiter calls, etc.)
+Claude assigns one task per day (Mon–Sat). Sunday is always planning.
+
+Rules:
+- Group related tasks on adjacent days when possible
+- Put the hardest task on the day with fewest other commitments
+- Always include at least 1 job search task and 1 learning/build task per sprint
 
 ---
 
 ## Step 6: Write the Sprint
 
-Claude writes the completed sprint to `Tasks/active-sprint.md`:
-- Fills in week dates, capacity, sprint theme
-- Populates the Kanban board with Todo items
-- Sets the top priority and time budget
+Claude writes to `Tasks/active-sprint.md` using `Templates/sprint.md`:
+- Week dates, capacity, sprint theme
+- Kanban board: Todo items assigned by day
+- Time budget table
 
-Claude also archives the previous sprint to `Tasks/archive/YYYY-MM-DD.md`.
+Claude archives the previous sprint to `Tasks/archive/YYYY-MM-DD.md`.
 
 ---
 
 ## Step 7: Commit & Close
 
 Claude summarizes:
-> "This week's sprint is set. Your top priority is [X]. You've got [Y] hours across [Z] days. See you tomorrow for standup."
+> "Sprint is set. This week: [theme]. Top priority: [X]. 5 tasks, 5 hours, one per day. See you tomorrow for standup."
 
 ---
 
 ## Anti-patterns to avoid
 
-- Don't over-commit. A 70% full sprint is better than a 110% sprint.
-- Don't let job search crowd out building time (or vice versa).
-- Don't plan tasks that aren't actionable — if something needs more definition, the task is "define X" not "do X."
+- Don't skip the scan — it's what keeps the backlog alive and relevant.
+- Don't over-commit. 5 tasks × 1 hour beats 10 tasks × 30 minutes.
+- Don't plan tasks that aren't actionable — if it needs definition, the task is "define X" not "do X."
+- Don't let scan results crowd out execution. New insights → backlog, not this sprint.

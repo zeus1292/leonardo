@@ -1,8 +1,9 @@
 # Active Sprint
 
-**Week of:** March 15–22, 2026
-**Capacity:** 3 hrs/day × 7 days = ~21 hrs | Target 70% committed = ~15 hrs
-**Sprint Theme:** Probe — requirements to working MVP
+**Week of:** Apr 13–19, 2026
+**Capacity:** 1 hr/day × 7 days = 7 hrs | Committed: ~5 hrs (5 tasks)
+**Theme:** Reset — re-anchor on goals, ship one Probe task, start job search engine
+**Generated:** Apr 13, 2026 (Sunday)
 
 ---
 
@@ -10,89 +11,72 @@
 
 ### 📋 Todo
 
-**Day 1 — Requirements (today)**
-- [ ] Review and finalize PRD — answer open questions [#probe] [S]
-- [ ] Review architecture doc — confirm stack decisions [#probe] [S]
-- [ ] Set up Linear project "Probe" — create all Day 2–6 issues [#probe] [S]
-- [ ] Create GitHub repo (public or private — decide today) [#probe] [S]
-- [ ] Post on LinkedIn: describe the eval pain point, tease Probe [#probe] [S]
-
-**Day 2 — Foundation**
-- [ ] Initialize Python repo with pyproject.toml, package structure [#probe] [M]
-- [ ] Write Pydantic models: EvalSuite, EvalCase, EvalRun, EvalResult [#probe] [M]
-- [ ] Set up SQLite schema + db.py CRUD layer [#probe] [M]
-- [ ] Scaffold CLI with Typer: suite create/list, case add, run commands [#probe] [M]
-
-**Day 3 — Deterministic Engine**
-- [ ] Implement exact_match, contains, not_contains evaluators [#probe] [M]
-- [ ] Implement regex_match, json_schema evaluators [#probe] [M]
-- [ ] Implement length_between, starts_with, ends_with evaluators [#probe] [S]
-- [ ] Wire evaluators into runner + store results [#probe] [M]
-- [ ] Build Rich terminal report for run output [#probe] [M]
-
-**Day 4 — LLM-as-Judge Engine**
-- [ ] Design and test judge prompt for faithfulness [#probe] [M]
-- [ ] Implement answer_relevance, hallucination evaluators [#probe] [M]
-- [ ] Implement custom_rubric evaluator (user-defined criteria) [#probe] [M]
-- [ ] Implement semantic_similarity (embedding cosine) [#probe] [M]
-- [ ] Add --compare-last flag to runner for regression detection [#probe] [S]
-
-**Day 5 — RAG Evaluators + Eval Plan Designer**
-- [ ] Implement rag_faithfulness, rag_answer_relevance evaluators [#probe] [M]
-- [ ] Implement rag_context_precision, rag_context_recall evaluators [#probe] [M]
-- [ ] Build eval plan designer: interactive CLI session [#probe] [L]
-- [ ] Engineer thought partner prompt: classify → risks → evaluator map → starter cases [#probe] [L]
-- [ ] Test designer against Retail Right or InvestorLens as example system [#probe] [M]
-
-**Day 6 — Polish + Ship**
-- [ ] Run comparison report (delta vs last run) [#probe] [M]
-- [ ] JSON + Markdown export for results [#probe] [S]
-- [ ] Write README with quickstart and examples [#probe] [M]
-- [ ] Write 2 example scripts (basic RAG suite, custom rubric) [#probe] [S]
-- [ ] PyPI packaging prep (pyproject.toml, versioning, test install) [#probe] [M]
-
-**Job Search (parallel)**
-- [ ] Update LinkedIn headline + About section [#job] [S]
-- [ ] Audit + refresh resume for AI PM positioning [#job] [M]
+| Day | Task | Track | Est |
+|-----|------|-------|-----|
+| Sun | Run `/sunday-plan` — scan + plan | #os | 1hr |
+| Mon | Audit and refresh resume for AI PM positioning | #job | M |
+| Tue | Set up public landing page for Probe | #probe | M |
+| Wed | Map current AI PM job market — who's hiring, what they want | #research | M |
+| Thu | Update LinkedIn headline and About section | #job | S |
+| Thu | Set up job alert automation (LinkedIn, Greenhouse, Lever) | #job | S |
+| Fri | Write LinkedIn launch post for Probe | #probe | M |
+| Sat | (Rest / catch-up buffer) | — | — |
 
 ### 🔄 In Progress
 
 ### ✅ Done
-- [x] Competitive research — LangSmith, Braintrust, DeepEval, Ragas, PromptFoo [#probe]
-- [x] Eval taxonomy — deterministic, non-deterministic, RAG [#probe]
-- [x] PRD v0.1 written [#probe]
-- [x] Architecture doc written [#probe]
 
 ### 🚫 Blocked
 
 ---
 
-## This Week's Focus
+## Focus by Day
 
-**Top priority:** Ship a working Probe MVP by end of Day 6
-**Secondary:** LinkedIn + resume updated for job search
-**Stretch goal:** Run Probe against InvestorLens or Retail Right as a real test case
+| Day | Primary goal | Notes |
+|-----|-------------|-------|
+| Sunday | Run first `/sunday-plan` with new system | First scan week — set baseline |
+| Monday | Resume | Foundation for all job search activity |
+| Tuesday | Probe landing page | Establishes public presence for the product |
+| Wednesday | Job market research | Feeds resume + company targeting |
+| Thursday | LinkedIn polish | Two S tasks — fits in 1 hour |
+| Friday | Probe launch post | Ties build work to credibility building |
+| Saturday | Buffer / rest | Don't plan here |
 
 ---
 
 ## Time Budget
 
-| Track | Allocated |
-|-------|-----------|
-| Probe (build) | ~12 hrs |
-| Job Search | ~2 hrs |
-| Admin / OS | ~1 hr |
-| **Total** | ~15 hrs |
+| Track | Tasks | Hours |
+|-------|-------|-------|
+| Job Search | Resume, LinkedIn, Job market research | ~3 hrs |
+| Product / Build | Probe landing page, launch post | ~2 hrs |
+| Admin / OS | Sunday planning | ~1 hr |
+| **Committed total** | | **~5 hrs** |
 
 ---
 
-## Notes
+## Sprint Notes
 
-- 2 interviews this week — keep interview days lighter on deep build work
-- Linear is the source of truth for Probe tasks — this board mirrors it
-- Decision pending: public repo from day 1 (build in public) or private until v1?
+### Carryover from last week
+- Probe MVP sprint (Mar 15–22) — status unknown, treat this as fresh start
+- Entire backlog is valid, nothing has been archived
+
+### Key decisions this week
+- New capacity model: 1 hr/day, 5 tasks per sprint
+- Sunday now includes a learning scan before planning
+- Learning-Driven backlog section goes live this Sunday
+
+### What I learned
+-
 
 ---
 
-*Sprint started:* March 15, 2026
-*Sprint ends:* March 22, 2026
+## Retro (filled in Sunday Apr 19)
+
+**What shipped:**
+
+**What didn't (and why):**
+
+**Velocity:** / 5 committed
+
+**One change for next week:**
