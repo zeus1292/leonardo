@@ -2,7 +2,7 @@
 
 **Week of:** Apr 13–19, 2026
 **Capacity:** 1 hr/day × 7 days = 7 hrs | Committed: ~5 hrs (5 tasks)
-**Theme:** Reset — re-anchor on goals, ship one Probe task, start job search engine
+**Theme:** Foundations — Personal OS best practices, intro to Team OS thinking
 **Generated:** Apr 13, 2026 (Sunday)
 
 ---
@@ -13,14 +13,11 @@
 
 | Day | Task | Track | Est |
 |-----|------|-------|-----|
-| Sun | Run `/sunday-plan` — scan + plan | #os | 1hr |
-| Mon | Audit and refresh resume for AI PM positioning | #job | M |
-| Tue | Set up public landing page for Probe | #probe | M |
-| Wed | Map current AI PM job market — who's hiring, what they want | #research | M |
-| Thu | Update LinkedIn headline and About section | #job | S |
-| Thu | Set up job alert automation (LinkedIn, Greenhouse, Lever) | #job | S |
-| Fri | Write LinkedIn launch post for Probe | #probe | M |
-| Sat | (Rest / catch-up buffer) | — | — |
+| Mon | Survey Personal OS frameworks — PARA, GTD, BASB, LYT: what each does well | #learning | M |
+| Tue | Study 3 popular Personal OS GitHub repos / Obsidian setups — note structure patterns | #learning | M |
+| Wed | Synthesize: write "What makes a great Personal OS?" — key principles and tradeoffs | #learning | M |
+| Thu | Audit this OS against best practices — gaps and improvements to make | #learning | M |
+| Fri | Survey Team OS tools — Notion, Confluence, Linear, Coda: what each is built for | #learning | M |
 
 ### 🔄 In Progress
 
@@ -30,17 +27,17 @@
 
 ---
 
-## Focus by Day
+## Day-by-Day Focus
 
-| Day | Primary goal | Notes |
-|-----|-------------|-------|
-| Sunday | Run first `/sunday-plan` with new system | First scan week — set baseline |
-| Monday | Resume | Foundation for all job search activity |
-| Tuesday | Probe landing page | Establishes public presence for the product |
-| Wednesday | Job market research | Feeds resume + company targeting |
-| Thursday | LinkedIn polish | Two S tasks — fits in 1 hour |
-| Friday | Probe launch post | Ties build work to credibility building |
-| Saturday | Buffer / rest | Don't plan here |
+| Day | Goal | Output |
+|-----|------|--------|
+| Sunday | Planning | This sprint written |
+| Monday | Learn frameworks | Notes on PARA / GTD / BASB / LYT — what each optimizes for |
+| Tuesday | Study real setups | 3 concrete examples, patterns extracted |
+| Wednesday | Synthesize | A written set of Personal OS principles (save to Knowledge/) |
+| Thursday | Apply to self | Audit of this OS with a short list of improvements |
+| Friday | Shift to Team OS | Initial lay of the land — tools, use cases, design philosophy |
+| Saturday | Rest / buffer | — |
 
 ---
 
@@ -48,26 +45,33 @@
 
 | Track | Tasks | Hours |
 |-------|-------|-------|
-| Job Search | Resume, LinkedIn, Job market research | ~3 hrs |
-| Product / Build | Probe landing page, launch post | ~2 hrs |
-| Admin / OS | Sunday planning | ~1 hr |
+| AI-Native PM Knowledge | 5 tasks | ~5 hrs |
+| Probe / Build | 0 this week | — |
 | **Committed total** | | **~5 hrs** |
 
 ---
 
 ## Sprint Notes
 
-### Carryover from last week
-- Probe MVP sprint (Mar 15–22) — status unknown, treat this as fresh start
-- Entire backlog is valid, nothing has been archived
+### Context
+- New role just started — job search track retired
+- This is Week 1 of a multi-week learning arc: Personal OS → Team OS → AI in PM workflows
+- Probe remains on the backlog but sits out this sprint — learning arc takes priority
+
+### Learning Arc Plan (multi-week)
+| Week | Focus |
+|------|-------|
+| Week 1 (this week) | Personal OS frameworks + first look at Team OS |
+| Week 2 | Team OS design patterns + Personal ↔ Team handoff |
+| Week 3 | Audit + iterate both OSes, document what you've learned |
+| Week 4+ | AI in PM workflows; bring Probe back |
+
+### Carryover from last sprint
+- None — clean reset
 
 ### Key decisions this week
-- New capacity model: 1 hr/day, 5 tasks per sprint
-- Sunday now includes a learning scan before planning
-- Learning-Driven backlog section goes live this Sunday
-
-### What I learned
--
+- Job search track retired (role landed)
+- New primary track: AI-Native PM Knowledge
 
 ---
 

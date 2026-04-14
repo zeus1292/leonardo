@@ -7,7 +7,7 @@
 A decade of turning complex AI capabilities into products that matter — from enterprise financial data platforms at S&P Global to 0-to-1 AI products at C3 AI. I have the rare combination of CS fundamentals, business analytics training (Columbia), and hands-on AI/ML implementation skills.
 
 **What I'm optimizing for right now:**
-1. Land the right AI PM role at a company building something I believe in
+1. Grow into an AI-native PM — deep fluency in how AI changes the craft of product management
 2. Build a product with genuine passive income potential — not a demo, a real business
 
 **Working style:**
@@ -22,10 +22,10 @@ A decade of turning complex AI capabilities into products that matter — from e
 
 ## What I Own
 
-### Track 1: Job Search
-- Targeting: AI PM, Senior PM (AI/ML), Product Lead at AI-native companies and AI-forward enterprises
-- Positioning: Technical PM who can both build and ship AI products, with enterprise and startup experience
-- Differentiators: Hands-on RAG/agentic AI builds, 10+ years across fintech/data/enterprise AI, Columbia MS
+### Track 1: AI-Native PM Knowledge
+- Focus: Learn and apply the practices, tools, and mental models that define great AI-native PMs
+- Current learning arc: Personal OS → Team OS → AI in PM workflows → building with AI
+- Output: A Personal OS and eventually a Team OS that embody best practices, not just convention
 
 ### Track 2: AI Product Builder (Passive Income)
 - Goal: Find and build one product with real monetization potential
@@ -34,21 +34,21 @@ A decade of turning complex AI capabilities into products that matter — from e
 
 ---
 
-## Q1/Q2 2026 Goals
+## Q2 2026 Goals
 
-### Goal 1: Land a senior AI PM role
-- **Target:** Signed offer by end of Q2 2026
-- **Leading indicators:** 5+ quality applications/week, 2+ recruiter conversations/week, 1+ final round/month
-- **Status:** In Progress
+### Goal 1: Become an AI-native PM in practice
+- **Target:** By end of Q2 — have a working Personal OS and Team OS with documented best practices; actively using AI in day-to-day PM work
+- **Leading indicators:** Weekly learning log updated, OS iterated weekly, at least one team OS contribution
+- **Status:** Starting — new role landed Apr 2026
 
 ### Goal 2: Validate and ship a passive income product
 - **Target:** First paying customer by end of Q2 2026
 - **Leading indicators:** 1 validated idea with clear monetization, working MVP, 10+ beta users
 - **Status:** 🟡 Active — building **Probe** (AI eval tool: deterministic + non-deterministic evals + thought partner). MVP sprint: Mar 17–22.
 
-### Goal 3: Build credibility as an AI product builder
-- **Target:** Consistent output — writing, builds, GitHub activity — that tells a coherent story
-- **Leading indicators:** 2+ published projects, portfolio updated monthly, LinkedIn active
+### Goal 3: Build credibility as an AI-native PM and builder
+- **Target:** Consistent output — writing, builds, frameworks — that tells a coherent story
+- **Leading indicators:** 2+ published projects or frameworks, portfolio updated monthly, LinkedIn active
 - **Status:** In Progress
 
 ---
@@ -63,9 +63,10 @@ A decade of turning complex AI capabilities into products that matter — from e
 
 ---
 
-## Context (as of March 2026)
+## Context (as of April 2026)
 
-- Actively job searching, full-time availability for personal projects
-- No current validated idea for passive income — in exploration mode
+- New AI PM role landed — transitioning from job search to AI-native PM growth track
+- Current learning focus: Personal OS best practices → Team OS design
+- Probe is active product build — passive income track still live
 - Portfolio live at https://akshay-io.vercel.app/
 - Skills to keep sharp: LangGraph, crewAI, RAG, Python, system design for AI products
