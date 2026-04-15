@@ -13,13 +13,13 @@ Output exactly this format:
 [List tasks currently marked [~] — if none, say "Nothing in flight yet"]
 
 **Up Next 📋**
-[List the top 2-3 Todo items by priority]
+[List today's assigned task from the sprint board, then the next day's task]
 
 **Blocked 🚫**
 [List anything blocked — if none, say "No blockers"]
 
 **Today's Focus 🎯**
-[One specific task that is the highest-leverage thing to do today, given the sprint goals and current state. Be direct — don't hedge.]
+[The single task assigned to today. State it directly: "Today's hour: [task]". Add one sentence on what a good outcome looks like.]
 ---
 
 ## Step 3: Prompt for updates

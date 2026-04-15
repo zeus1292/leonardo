@@ -7,8 +7,8 @@ Read:
 
 ## Step 2: What shipped
 Summarize the sprint board:
-- How many tasks completed vs committed (velocity)
-- Which track got more done (job search vs build)
+- How many tasks completed vs committed (velocity: X/5)
+- Which track got the most done
 - Any tasks that moved from Todo → Done this week
 
 Ask: "Anything you completed that's not marked done on the board?"
@@ -25,9 +25,9 @@ Flag patterns: "You've carried over [X] for 2+ weeks — is this actually a prio
 
 ## Step 4: Goal progress check
 For each goal in `GOALS.md`, give a 1-line status:
-- Job search: applications sent, conversations had, pipeline movement
-- Passive income: ideas validated, users talked to, anything built
-- Credibility/portfolio: anything published or shipped
+- AI-Native PM Knowledge: what did you learn, how far through the learning arc?
+- Passive income / Probe: anything built, validated, or shipped?
+- Credibility/portfolio: anything published or shipped?
 
 Ask: "Does this feel like the right progress, or are you off track somewhere?"
 
@@ -39,6 +39,7 @@ Capture the answer as a note.
 Write a retro block into the current `Tasks/active-sprint.md` under the Retro section:
 - What shipped
 - What didn't and why
+- Velocity (tasks done / 5 committed)
 - One thing to do differently
 
 ## Step 7: Close
