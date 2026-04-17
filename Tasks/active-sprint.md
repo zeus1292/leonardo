@@ -11,13 +11,7 @@
 
 ### 📋 Todo
 
-| Day | Task | Track | Est |
-|-----|------|-------|-----|
-| Mon | Survey Personal OS frameworks — PARA, GTD, BASB, LYT: what each does well | #learning | M |
-| Tue | Study 3 popular Personal OS GitHub repos / Obsidian setups — note structure patterns | #learning | M |
-| Wed | Synthesize: write "What makes a great Personal OS?" — key principles and tradeoffs | #learning | M |
-| Thu | Audit this OS against best practices — gaps and improvements to make | #learning | M |
-| Fri | Survey Team OS tools — Notion, Confluence, Linear, Coda: what each is built for | #learning | M |
+— Cleared. Parked for Sunday replanning.
 
 ### 🔄 In Progress
 
@@ -72,15 +66,16 @@
 ### Key decisions this week
 - Job search track retired (role landed)
 - New primary track: AI-Native PM Knowledge
+- Week parked mid-sprint (Apr 16) — all 5 tasks carried over to next sprint
 
 ---
 
 ## Retro (filled in Sunday Apr 19)
 
-**What shipped:**
+**What shipped:** Nothing — week parked mid-sprint.
 
-**What didn't (and why):**
+**What didn't (and why):** All 5 tasks carried over. Sprint paused intentionally on Apr 16.
 
-**Velocity:** / 5 committed
+**Velocity:** 0 / 5 committed
 
-**One change for next week:**
+**One change for next week:** Pick up the full Personal OS learning arc — these tasks are still the right priority.
