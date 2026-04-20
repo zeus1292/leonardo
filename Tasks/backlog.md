@@ -12,12 +12,12 @@ Pull from here during Sunday planning to build the weekly sprint.
 
 *Multi-week learning arc. Personal OS first, then Team OS, then AI in PM workflows.*
 
-### Personal OS (current focus)
-- [ ] Survey Personal OS frameworks — PARA, GTD, BASB, LYT: what each does well [#learning] [M]
-- [ ] Study 3 popular Personal OS GitHub repos / Obsidian setups — note structure patterns [#learning] [M]
-- [ ] Synthesize: write "What makes a great Personal OS?" — key principles, tradeoffs [#learning] [M]
-- [ ] Audit this OS against best practices — gaps, improvements, what to adopt [#learning] [M]
-- [ ] Implement top 2–3 improvements to this OS based on audit [#os] [M]
+### Personal OS (current focus — Week of Apr 20)
+- [ ] Survey Personal OS frameworks — PARA, GTD, BASB, LYT: produce a 4-row comparison table (problem each solves, core mechanic, what it gets wrong) [#learning] [M]
+- [ ] Study 3 real Personal OS setups — 1 Obsidian vault, 1 Notion setup, 1 GitHub-based OS: extract the 5 structural patterns that appear across all three [#learning] [M]
+- [ ] Synthesize: write "What makes a great Personal OS?" — produce a `Knowledge/personal-os-principles.md` doc with 6–8 durable principles [#learning] [M]
+- [ ] Audit this OS against those principles — produce a gap list: what's working, what's missing, top 3 improvements ranked by impact [#os] [M]
+- [ ] Implement top 2 improvements to this OS — make the actual changes to files/structure based on Thursday's audit [#os] [M]
 
 ### Team OS (next after Personal OS)
 - [ ] Survey Team OS tools — Notion, Confluence, Linear, Coda: what each is built for [#learning] [M]
