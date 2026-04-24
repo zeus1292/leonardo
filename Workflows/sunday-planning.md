@@ -11,7 +11,7 @@ Combines a weekly intelligence scan with sprint planning.
 |------|------|
 | Step 0: Knowledge Scan | ~30–40 min |
 | Step 1–2: Orient + Retro | ~5 min |
-| Step 3–5: Prioritize + Plan | ~10–15 min |
+| Step 3–5: Pick topic + break it down + assign days | ~10–15 min |
 | Step 6: Write Sprint | ~5 min |
 
 ---
@@ -60,28 +60,28 @@ Adjust accordingly (e.g., a day with an interview → that hour is the interview
 
 ---
 
-## Step 4: Prioritization
-
-Claude surfaces **5 tasks** from the backlog:
-1. Aligned with current quarter goals
-2. Sized at ~1 hour each (M = 1hr, S = 30min = stack two, L = 2hrs = split across days)
-3. Balanced across tracks: job search, product build, and at least 1 learning-driven task
-
-For each, show: task, track, estimate, why now.
+## Step 4: Pick the week's learning topic
 
 Claude asks:
-> "Here are the 5 I'd pull in. Want to swap anything before I write the sprint?"
+> "What's the one topic you want to go deep on this week?"
+
+Once confirmed, Claude breaks it into 5 daily tasks (Mon–Fri), each scoped to 1 hour:
+- Mon–Wed: progressive understanding (concepts → examples → patterns)
+- Thu: apply or audit (test it against your own work or OS)
+- Fri: synthesize (write a principles doc, implement a change, or ship a take)
+
+Each task gets a concrete "done when..." output — not just time spent.
 
 ---
 
 ## Step 5: Assign Days
 
-Claude assigns one task per day (Mon–Sat). Sunday is always planning.
+One task per day, Mon–Fri. The topic breakdown from Step 4 is the sprint.
 
 Rules:
-- Group related tasks on adjacent days when possible
-- Put the hardest task on the day with fewest other commitments
-- Always include at least 1 job search task and 1 learning/build task per sprint
+- Tasks should build on each other day-over-day — each day's output feeds the next
+- Thu and Fri should produce something tangible (a doc, a change, a published take)
+- If a day is blocked by commitments, that task slides to the next available day
 
 ---
 

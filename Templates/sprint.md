@@ -30,17 +30,19 @@
 
 ---
 
-## Focus by Day
+## This Week's Learning Topic
+**Topic:** [The one subject Akshay is going deep on this week]
+**Why this week:** [One line on why it's the right focus now]
 
-| Day | Primary goal | Notes |
-|-----|-------------|-------|
-| Sunday | Planning + Scan | `/sunday-plan` |
-| Monday | [Task] | |
-| Tuesday | [Task] | |
-| Wednesday | [Task] | |
-| Thursday | [Task] | |
-| Friday | [Task] | |
-| Saturday | Rest or catch-up | Optional |
+## Daily Breakdown
+
+| Day | Learning Task | Done When... |
+|-----|--------------|-------------|
+| Mon | [Specific slice of the topic] | [Clear output or milestone] |
+| Tue | [Specific slice of the topic] | [Clear output or milestone] |
+| Wed | [Specific slice of the topic] | [Clear output or milestone] |
+| Thu | [Specific slice of the topic] | [Clear output or milestone] |
+| Fri | [Specific slice of the topic — synthesis or build] | [Clear output or milestone] |
 
 ---
 
