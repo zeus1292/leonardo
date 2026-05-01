@@ -30,7 +30,21 @@ Claude surfaces a quick summary:
 
 ---
 
-## Step 1: Orient (Claude reads silently)
+## Step 1: Process the inbox
+
+Read `INBOX.md`. For each entry:
+- **Actionable task** → add to `Tasks/backlog.md` under the right track, correctly sized
+- **Product idea** → note it for `Projects/product-ideas/` or flag for `/new-idea`
+- **Observation or pattern** → hold for the retro in Step 2
+
+After processing, show Akshay what was extracted:
+> "Found [N] items in your inbox. Here's what I pulled out: [list]. Clear the inbox now?"
+
+Only clear processed entries after confirmation. Leave anything ambiguous for Akshay to decide.
+
+---
+
+## Step 2: Orient (Claude reads silently)
 
 Read:
 - `GOALS.md` — anchor on what matters most this quarter
@@ -39,7 +53,7 @@ Read:
 
 ---
 
-## Step 2: Quick Retro (2 min)
+## Step 3: Quick Retro (2 min)
 
 Claude asks:
 > "Quick retro on last week — what shipped, what didn't? Any patterns?"
@@ -48,7 +62,7 @@ Capture key takeaways. Note carryover items.
 
 ---
 
-## Step 3: Capacity Check
+## Step 4: Capacity Check
 
 Capacity is fixed: **1 hour/day × 7 days = 7 hours/week.**
 Target **5 committed hours** (~70%), leaving buffer for interruptions.
@@ -60,7 +74,7 @@ Adjust accordingly (e.g., a day with an interview → that hour is the interview
 
 ---
 
-## Step 4: Pick the week's learning topic
+## Step 5: Pick the week's learning topic
 
 Claude asks:
 > "What's the one topic you want to go deep on this week?"
@@ -74,7 +88,7 @@ Each task gets a concrete "done when..." output — not just time spent.
 
 ---
 
-## Step 5: Assign Days
+## Step 6: Assign Days
 
 One task per day, Mon–Fri. The topic breakdown from Step 4 is the sprint.
 
@@ -85,7 +99,7 @@ Rules:
 
 ---
 
-## Step 6: Write the Sprint
+## Step 7: Write the Sprint
 
 Claude writes to `Tasks/active-sprint.md` using `Templates/sprint.md`:
 - Week dates, capacity, sprint theme
@@ -96,7 +110,7 @@ Claude archives the previous sprint to `Tasks/archive/YYYY-MM-DD.md`.
 
 ---
 
-## Step 7: Commit & Close
+## Step 8: Commit & Close
 
 Claude summarizes:
 > "Sprint is set. This week: [theme]. Top priority: [X]. 5 tasks, 5 hours, one per day. See you tomorrow for standup."

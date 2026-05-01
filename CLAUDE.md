@@ -27,6 +27,7 @@ I operate like a solo founder with a one-week sprint cycle. Every Sunday, Claude
 Personal OS/
 ├── CLAUDE.md              ← You are here. Read this first.
 ├── GOALS.md               ← Identity, goals, current quarter priorities
+├── INBOX.md               ← Raw brain-dump capture zone (gitignored — processed each Sunday)
 ├── Tasks/
 │   ├── backlog.md         ← Running backlog (all tracks, prioritized)
 │   ├── active-sprint.md   ← Current week's Kanban board
@@ -59,7 +60,7 @@ Personal OS/
 
 | Say | Does |
 |-----|------|
-| `/sunday-plan` | Full Sunday session: scan → retro → prioritize → write sprint (60 min) |
+| `/sunday-plan` | Full Sunday session: inbox → scan → retro → prioritize → write sprint (60 min) |
 | `/scan` | Standalone learning scan: search Reddit/Twitter/HN, write digest, update backlog |
 | `/standup` | Daily check-in: surface today's task from active sprint, flag blockers |
 | `/weekly-review` | End-of-week: what shipped, what didn't, lessons, prep next sprint |
